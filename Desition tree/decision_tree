@@ -1,0 +1,25 @@
+digraph {
+	fontname=SimHei
+	root_1 [label="费用" fontname=SimHei]
+	root -> root_1
+	root_1_2 [label="多" fontname=SimHei]
+	root_1 -> root_1_2
+	root_1_2_3 [label="距离" fontname=SimHei]
+	root_1_2 -> root_1_2_3
+	root_1_2_3_4 [label="近" fontname=SimHei]
+	root_1_2_3 -> root_1_2_3_4
+	root_1_2_3_4_5 [label="是" fontname=SimHei]
+	root_1_2_3_4 -> root_1_2_3_4_5
+	root_1_2_3_6 [label="远" fontname=SimHei]
+	root_1_2_3 -> root_1_2_3_6
+	root_1_2_3_6_7 [label="否" fontname=SimHei]
+	root_1_2_3_6 -> root_1_2_3_6_7
+	root_1_8 [label="少" fontname=SimHei]
+	root_1 -> root_1_8
+	root_1_8_9 [label="否" fontname=SimHei]
+	root_1_8 -> root_1_8_9
+	root_1_10 [label="适中" fontname=SimHei]
+	root_1 -> root_1_10
+	root_1_10_11 [label="是" fontname=SimHei]
+	root_1_10 -> root_1_10_11
+}
